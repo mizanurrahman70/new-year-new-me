@@ -15,7 +15,8 @@ header {
 
     height: 808px;
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 100vw;
+    background-size: cover;
 
 
 }
@@ -61,4 +62,19 @@ header {
     background: #F15B22;
     color: white;
     border: 0;
+}
+/* first section style */
+.middle-section-container{
+    display: flex;
+    justify-content: space-between;
+}
+.img-person{
+    margin-left: 205px;
+    margin-top: 240px;
+    margin-right: 105px;
+}
+.contain{
+    margin-top: 370px;
+    margin-right: 222px;
+    background: #FFF;
 }
